@@ -1,0 +1,40 @@
+body{ 
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 2s; 
+    animation-fill-mode: forwards; 
+  } 
+  
+  
+  @keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+  }
+  
+  
+@media screen and (max-width: 850px) {
+
+
+    body{ 
+      animation: fadeInAnimation ease 4s;
+      animation-iteration-count: 2s; 
+      animation-fill-mode: forwards; 
+    } 
+    
+    
+    @keyframes fadeInAnimation { 
+      0% { 
+          opacity: 0; 
+      } 
+      100% { 
+          opacity: 1; 
+       } 
+    }  
+
+    #movie-name{
+        font-size: 9px !important;
+
+    }
