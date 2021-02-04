@@ -1,8 +1,11 @@
 $("#plot-header").hide();  
-$("#imbd-header").hide();  
+$("#imbd-header").hide(); 
+ 
+
 
 
 $("#movie-button").click(function(){
+
 var movieName = ["Bad Boys for Life",	
 "Sonic the Hedgehog",	
 "Birds of Prey",
