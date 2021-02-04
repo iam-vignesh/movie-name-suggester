@@ -47,7 +47,7 @@ var randomName = (movieName[randName]);
 var url = $.get("https://www.omdbapi.com/?i=tt3896198&apikey=979395e0&t="+randomName)
   .then((response) => {
     console.log(response);
-    document.getElementById("movie-name").innerHTML = response.Title;
+    document.getElementById("movie name").innerHTML = response.Title;
     document.getElementById("plot").innerHTML = response.Plot;
     document.getElementById("imdb").innerHTML = response.imdbRating;
     $("#plot-header").show(); 
