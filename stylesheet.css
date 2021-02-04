@@ -32,10 +32,14 @@ body{
       100% { 
           opacity: 1; 
        } 
-    }  
+    }
+    
+    #movie-info{
+      padding-top:70px;
+    }
 
     #plot{
-        font-size: 25px !important;
+        font-size: 30px !important;
 
     }
   }
