@@ -39,7 +39,12 @@ var movieName = ["Bad Boys for Life",
 "Kill Bill",
 "Home Alone",
 "Cast Away",
-"Forrest Gump"
+"Forrest Gump",
+"Reservoir Dogs",
+"Up",
+"Rocky",
+"Memento",
+"Seven"
 ]
 
 var randName = Math.floor(Math.random() * (movieName.length));
