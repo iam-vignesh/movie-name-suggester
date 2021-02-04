@@ -15,7 +15,7 @@ body{
   }
   
   
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 700px) {
 
 
     body{ 
@@ -34,7 +34,8 @@ body{
        } 
     }  
 
-    #movie-name{
-        font-size: 9px !important;
+    #plot{
+        font-size: 18px !important;
 
     }
+  }
