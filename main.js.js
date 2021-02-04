@@ -53,7 +53,21 @@ var movieName = ["Bad Boys for Life",
 "Hook",
 "Goodfellas",
 "God father",
-"The Social Network"
+"The Social Network",
+"Master",
+"world famous lover",
+"ae dil hai mushkil",
+"Parasite",
+"Titanic",
+"The Devil Wears Prada",
+"Dilwale Dulhania Le Jayenge",
+"The Grand Budapest Hotel",
+"Jaws",
+"96",
+"Oru Pakka Kathai",
+"Paava Kadhaigal",
+"Soorarai Pottru",
+"Darbar"
 ]
 
 var randName = Math.floor(Math.random() * (movieName.length));
