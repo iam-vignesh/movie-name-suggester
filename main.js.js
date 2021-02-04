@@ -4,7 +4,7 @@ $("#imbd-header").hide();
 
 
 
-$("#movie-button").click(function(){
+$("html").click(function(){
 
 var movieName = ["Bad Boys for Life",	
 "Sonic the Hedgehog",	
