@@ -13,33 +13,22 @@ body{
         opacity: 1; 
      } 
   }
+
+#plot{
+    font-size: 25px !important;
+}
   
+
+@media only screen and (max-width: 600px) {
+
+  #plot{
+    font-size: 20px !important;
+ }
+
   
-@media screen and (max-width: 850px) {
-
-
-    body{ 
-      animation: fadeInAnimation ease 4s;
-      animation-iteration-count: 2s; 
-      animation-fill-mode: forwards; 
-    } 
-    
-    
-    @keyframes fadeInAnimation { 
-      0% { 
-          opacity: 0; 
-      } 
-      100% { 
-          opacity: 1; 
-       } 
-    }
-    
-    #movie-info{
-      padding-top:70px;
-    }
-
-    #plot{
-        font-size: 30px !important;
-
-    }
+  #movie-info{
+    padding-top:40px;
   }
+
+
+}
