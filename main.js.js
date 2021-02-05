@@ -1,5 +1,7 @@
 $("#plot-header").hide();  
 $("#imbd-header").hide(); 
+$("#lang-header").hide(); 
+
  
 
 
@@ -67,7 +69,29 @@ var movieName = ["Bad Boys for Life",
 "Oru Pakka Kathai",
 "Paava Kadhaigal",
 "Soorarai Pottru",
-"Darbar"
+"Darbar",
+"Schindler's List",
+"The Shining",
+"Pride and Prejudice",
+"Anbe Sivam",
+"Thevar Magan",
+"Asuran",
+"Iruvar",
+"Thani Oruvan",
+"Vada Chennai",
+"Aruvi",
+"Kuruthipunal",
+"Thillu Mullu",
+"Taare Zameen Par",
+"3 Idiots",
+"Aparajito",
+"Vikram Vedha",
+"Drishyam",
+"Andhadhun",
+"Premam",
+"Dhuruvangal Pathinaaru",
+"Jigarthanda",
+"Kahaani"
 ]
 
 var randName = Math.floor(Math.random() * (movieName.length));
@@ -78,8 +102,10 @@ var url = $.get("https://www.omdbapi.com/?i=tt3896198&apikey=979395e0&t="+random
     document.getElementById("movie name").innerHTML = response.Title;
     document.getElementById("plot").innerHTML = response.Plot;
     document.getElementById("imdb").innerHTML = response.imdbRating;
+    document.getElementById("lang").innerHTML = response.Language;
     $("#plot-header").show(); 
-    $("#imbd-header").show();    
+    $("#imbd-header").show(); 
+    $("#lang-header").show();   
   });
   });
 
